@@ -1,5 +1,9 @@
 package hello
 
-func Hello() string {
-	return "Hello, world."
+import (
+	"rsc.io/quote"
+)
+
+func HelloV2() string {
+	return quote.Hello()
 }
